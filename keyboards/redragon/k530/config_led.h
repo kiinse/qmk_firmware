@@ -30,4 +30,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define DRIVER_LED_TOTAL (61)
 
+#define RGB_DISABLE_WHEN_USB_SUSPENDED true
+
 #define LED_PIN_ON_STATE 0
