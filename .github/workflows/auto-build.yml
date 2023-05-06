@@ -3,12 +3,10 @@ name: Compile Firmware
 on:
   push:
     branches:
-    - sn32
     - sn32_openrgb
     - sn32_openrgb_new
   pull_request:
     branches:
-    - sn32
     - sn32_openrgb
     - sn32_openrgb_new
 
