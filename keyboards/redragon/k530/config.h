@@ -48,6 +48,5 @@
 //#define LOCKING_RESYNC_ENABLE
 
 #define RGB_DISABLE_WHEN_USB_SUSPENDED true
-#define SLEEP_LED_MODE_ANIMATION RGB_MATRIX_NONE
 
 #include "config_led.h"
