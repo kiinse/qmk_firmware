@@ -51,6 +51,7 @@ COMMAND_ENABLE = no     # Commands for debug and configuration
 SLEEP_LED_ENABLE = no   # Breathing sleep LED during USB suspend
 NKRO_ENABLE = yes        # USB Nkey Rollover
 RGBLIGHT_SLEEP = yes
+RGB_DISABLE_WHEN_USB_SUSPENDED = yes
 AUDIO_ENABLE = no
 RGBLIGHT_ENABLE = no
 SERIAL_LINK_ENABLE = no
