@@ -48,5 +48,6 @@
 //#define LOCKING_RESYNC_ENABLE
 
 #define RGB_DISABLE_WHEN_USB_SUSPENDED true
+#define FORCE_NKRO
 
 #include "config_led.h"
