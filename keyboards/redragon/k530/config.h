@@ -47,6 +47,6 @@
 /* Locking resynchronize hack */
 //#define LOCKING_RESYNC_ENABLE
 
-#define RGB_DISABLE_WHEN_USB_SUSPENDED
+#define RGB_DISABLE_WHEN_USB_SUSPENDED true
 
 #include "config_led.h"
