@@ -50,7 +50,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
-        case LT(_FN, _FN2, KC_CAPS):
+        case LT(_FN, KC_CAPS):
+            return 2000; // 2 seconds, same as stock firmware
+        case LT(_FN2, KC_APP):
             return 2000; // 2 seconds, same as stock firmware
         default:
             return TAPPING_TERM;
